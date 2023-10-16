@@ -1,5 +1,2 @@
-streamlit
-pandas
 pandasai
-numpy
-matplotlib
+
