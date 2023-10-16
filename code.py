@@ -11,7 +11,7 @@ st.cache()
 
 API_KEY = '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'
 llm = OpenAI(api_token = API_KEY, engine = "gpt-3.5-turbo")
-pandas_ai= PandasAI(llm, middlewares=[StreamlitMiddleware()], verbose=False)
+pandas_ai= PandasAI(llm)
 
 
 st.title('CSV chatbot')
